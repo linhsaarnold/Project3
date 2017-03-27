@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+ <html lang="en">
+     <head
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>UVIC Shop and Swap</title>
-
-    <!-- Project2 JS File -->
-    <script type="text/javascript" src="p2-all.js"></script>
 
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,15 +15,14 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Project2 JS File -->
+    <script type="text/javascript" src="kate.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    
-
 </head>
-
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -38,7 +32,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="p2-home.html">Home</a></li>
-      <li class="active"><a href="p2-all.html">Shop All Categories</a></li>
+      <li><a href="p2-all.html">Shop All Categories</a></li>
       <li><a href="p2-textbooks.html">Textbooks</a></li>
       <li><a href="p2-notes.html">Notes</a></li>
       <li><a href="p2-clothing.html">Clothing</a></li>
@@ -51,7 +45,7 @@
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Search Users Here...">
       </div>
-      <button type="submit" class="btn btn-default" onclick="navbarsearch()">Search</button>
+      <button class="btn btn-default" onclick="navbarsearch()">Search</button>
     </form>
   </div>
 </nav>
@@ -69,7 +63,56 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="name">
-        <h1>Shop All Categories</h1>
+        <h1>User Name</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-body"><img src="" class="img-responsive center-block" alt="Image" width="300" height="300"></div>
+      </div>
+     </div>
+     <div class="col-sm-8">
+        <table class="table" id"about">
+            <thead>
+                <tr>
+                    <th>Faculty</th>
+                    <th>Year</th>
+                    <th>Hometown</th>
+                </tr>
+                <tr>
+                    <td>type in faculty</td>
+                    <td>type in year</td>
+                    <td>type in hometown</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>  
+        </table>
+        <div class="name">
+            <h1>About User</h1>
+        </div>
+        <div class="about"
+            <p>Hello! My name is...</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="name">
+        <h1>Users's Store</h1>
       </div>
     </div>
   </div>
@@ -85,7 +128,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestA()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestA()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div> 
@@ -97,7 +140,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestB()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestB()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div> 
@@ -109,7 +152,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestC()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestC()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div>
@@ -121,7 +164,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestD()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestD()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div>
@@ -133,7 +176,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestE()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestE()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div> 
@@ -145,7 +188,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestF()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestF()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div> 
@@ -157,7 +200,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestG()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestG()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div>
@@ -169,7 +212,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestH()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestH()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div>
@@ -181,7 +224,7 @@
         </div>
         <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
         <div class="panel-footer">
-          Price $ <button id="info" onclick="addinterestI()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='p2-sampleprofile.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+          Price $ <button id="info" onclick="addinterestI()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='kate.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
         </div>
       </div>
     </div>
@@ -204,5 +247,6 @@
 
 <footer>
 </footer>
-
-</html>
+ </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help

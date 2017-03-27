@@ -1,0 +1,254 @@
+ <html lang="en">
+     <head
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UVIC Shop and Swap</title>
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles for the navigation bar template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <!-- Project2 CSS File -->
+    <link rel="stylesheet" type="text/css" href="project2.css"> 
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Project2 JS File -->
+    <script type="text/javascript" src="linhsa.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="p2-home.html">UVIC Shop and Swap</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="p2-home.html">Home</a></li>
+      <li><a href="p2-all.html">Shop All Categories</a></li>
+      <li><a href="p2-textbooks.html">Textbooks</a></li>
+      <li><a href="p2-notes.html">Notes</a></li>
+      <li><a href="p2-clothing.html">Clothing</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="dana.html"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+      <li><a href="p2-login.html"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+    </ul>
+    <form class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Users Here...">
+      </div>
+      <button class="btn btn-default" onclick="navbarsearch()">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="stripe">
+        <br>
+      </div>
+    <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="name">
+        <h1>Linh Sa Arnold</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-body"><img src="linhsa.jpg" class="img-responsive center-block" alt="Image" width="300" height="300"></div>
+      </div>
+     </div>
+     <div class="col-sm-8">
+        <table class="table" id"about">
+            <thead>
+                <tr>
+                    <th>Faculty</th>
+                    <th>Year</th>
+                    <th>Hometown</th>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>Second</td>
+                    <td>Victoria, BC</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>  
+        </table>
+        <div class="name">
+            <h1>About User</h1>
+        </div>
+        <div class="about"
+            <p>Hello, I'm a second year BCOM student here at UVIC. Click the 
+              "Add Interest" button if you're interested in anything that I'm selling and I'll get back to you as soon as I can. Thanks! - Linh Sa
+            </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="name">
+        <h1>Linh Sa's Store</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4" id="listing_id=6">
+      <div class="panel panel-default">
+        <div class="panel-heading">AHVS 260 Notes
+          <br>
+          Interested:<span id="IntA">0</span></td>
+        </div>
+        <div class="panel-body"><img src="AHVS260.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $20 <button id="info" onclick="addinterestA()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div> 
+    <div class="col-sm-4" id="listing_id=17">
+      <div class="panel panel-default">
+        <div class="panel-heading">AHVS 241
+          <br>
+          Interested:<span id="IntB">0</span></td>
+        </div>
+        <div class="panel-body"><img src="AHVS241.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $20 <button id="info" onclick="addinterestB()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default" id="listing_id=18">
+        <div class="panel-heading">GRS 200 Notes
+          <br>
+          Interested:<span id="IntC">0</span></td>
+        </div>
+        <div class="panel-body"><img src="GRS200.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $15 <button id="info" onclick="addinterestC()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default" id="listing_id=19">
+        <div class="panel-heading">STAT 252 Midterm 1-3 Study Guides
+          <br>
+          Interested:<span id="IntD">0</span></td>
+        </div>
+        <div class="panel-body"><img src="STAT252MidtermNotes.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $30 <button id="info" onclick="addinterestD()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4" id="listing_id=20">
+      <div class="panel panel-default">
+        <div class="panel-heading">Vintage Japanese Bomber Jacket
+          <br>
+          Interested:<span id="IntE">0</span></td>
+        </div>
+        <div class="panel-body"><img src="Bomber.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $40 <button id="info" onclick="addinterestE()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default" id="listing_id=1">
+        <div class="panel-heading">Black Cheap Monday Jeans
+          <br>
+          Interested:<span id="IntF">0</span></td>
+        </div>
+        <div class="panel-body"><img src="" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $20 <button id="info" onclick="addinterestF()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default" id="listing_id=7">
+        <div class="panel-heading">American Apparel Knit Sweater
+          <br>
+          Interested:<span id="IntG">0</span></td>
+        </div>
+        <div class="panel-body"><img src="AASweater.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $10 <button id="info" onclick="addinterestG()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4" id="listing_id=4">
+      <div class="panel panel-default">
+        <div class="panel-heading">CSC 105
+          <br>
+          Interested:<span id="IntH">0</span></td>
+        </div>
+        <div class="panel-body"><img src="CSC105.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $50 <button id="info" onclick="addinterestH()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4" id="listing_id=5">
+      <div class="panel panel-default">
+        <div class="panel-heading">STAT 252
+          <br>
+          Interested:<span id="IntI">0</span></td>
+        </div>
+        <div class="panel-body"><img src="STAT252.jpg" class="center-block" alt="Image" width="300" height="300"></div>
+        <div class="panel-footer">
+          Price $40 <button id="info" onclick="addinterestI()" style="float: right;">Add Interest</button><button id="info" onclick="location.href='linhsa.html';" style="float: right;">Seller Profile</button><button id="info" onclick="moreinfo()" style="float: right;">More Info</button>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+     </div>  
+  </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+<footer>
+</footer>
+ </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
