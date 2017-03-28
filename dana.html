@@ -18,7 +18,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Project2 JS File -->
-    <script type="text/javascript" src="p2-myprofile.js"></script>
+    <script type="text/javascript" src="dana.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -56,25 +56,18 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="stripe">
-      <br>
-    </div>
-  <div class="clearfix visible-lg"></div>
-</div>
-<div class="container-fluid">
-  <div class="row">
       <div class="stripe">
         <br>
       </div>
-  <div class="clearfix visible-lg"></div>
+    <div class="clearfix visible-lg"></div>
+  </div>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
       <div class="name">
-        <h1>User Name</h1>
-      </div>
+        <h1 id"printname">Dana Begg</h1>
     </div>
   </div>
 </div>
@@ -97,19 +90,19 @@
             </thead>
             <tbody>
                 <tr>
-                  <td id="faculty"></td>
-                  <td id="year">Second Year</td>
-                  <td id="name">Edmonton</td>
+                  <td id="printfaculty">Psychology</td>
+                  <td id="printyear">Second Year</td>
+                  <td id="printhometown">Edmonton</td>
                 </tr>
                 <tr>
-                    <td><input id="changefaculty" type="text" size="15"><button onclick="editfaculty()">Edit Faculty</button></td>
-                    <td><input id="changeyear" type="text" size="15" value=""><button onclick="edityear()">Edit Year</button></td>
-                    <td><input id="changehometown" type="text" size="15" value=""><button onclick="edithometown()">Edit Hometown</button></td>
+                    <td><input type="text" id="inputfaculty" size="15" value=""><button onclick="editfaculty()">Edit Faculty</button></td>
+                    <td><input type="text" id="inputyear" size="15" value=""><button onclick="edityear()">Edit Year</button></td>
+                    <td><input type="text" id="inputhometown" size="15" value=""><button onclick="edithometown()">Edit Hometown</button></td>
                 </tr>
             </tbody>  
         </table>
         <div class="name">
-            <h1>About User</h1>
+            <h1>About Dana</h1>
         </div>
         <div class="about"
             <p>Hello! My name is...</p>
