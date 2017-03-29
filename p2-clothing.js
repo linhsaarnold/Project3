@@ -2,8 +2,40 @@ function navbarsearch() {
     alert("I'm sorry, we can't find what you're looking for.");
 }
 
-function moreinfo() {
-    alert("No Info Available");
+function moreinfoA() {
+    alert("Size small, from a vintage shop in Harajuku, Tokyo");
+}
+
+function moreinfoB() {
+    alert("Size 26, Levis");
+}
+
+function moreinfoC() {
+    alert("Size Small, American Apparel");
+}
+
+function moreinfoD() {
+    alert("");
+}
+
+function moreinfoE() {
+    alert("");
+}
+
+function moreinfoF() {
+    alert("");
+}
+
+function moreinfoG() {
+    alert("");
+}
+
+function moreinfoH() {
+    alert("");
+}
+
+function moreinfoI() {
+    alert("");
 }
 
 var countA = 0;

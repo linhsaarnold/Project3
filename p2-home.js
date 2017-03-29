@@ -2,7 +2,39 @@ function navbarsearch() {
     alert("I'm sorry, we can't find what you're looking for.");
 }
 
-function moreinfo() {
+function moreinfoA() {
+    alert("No Info Available");
+}
+
+function moreinfoB() {
+    alert("from Winter 2017 Semester with Melissa Berry");
+}
+
+function moreinfoC() {
+    alert("From Winter 2017 Semester with Erin Campbell");
+}
+
+function moreinfoD() {
+    alert("From Fall 2016 Semester with Laurel Bowman");
+}
+
+function moreinfoE() {
+    alert("From Winter 2017 Semester with Fan Wu");
+}
+
+function moreinfoF() {
+    alert("Size small, from a vintage shop in Harajuku, Tokyo");
+}
+
+function moreinfoG() {
+    alert("Size 26, Levis");
+}
+
+function moreinfoH() {
+    alert("No Info Available");
+}
+
+function moreinfoI() {
     alert("No Info Available");
 }
 
@@ -12,4 +44,50 @@ function addinterestA() {
     document.getElementById("IntA").innerHTML = countA;
 }
 
+var countB = 0;
+function addinterestB() {
+    countB++;
+    document.getElementById("IntB").innerHTML = countB;
+}
 
+var countC = 0;
+function addinterestC() {
+    countC++;
+    document.getElementById("IntC").innerHTML = countC;
+}
+
+var countD = 0;
+function addinterestD() {
+    countD++;
+    document.getElementById("IntD").innerHTML = countD;
+}
+
+var countE = 0;
+function addinterestE() {
+    countE++;
+    document.getElementById("IntE").innerHTML = countE;
+}
+
+var countF = 0;
+function addinterestF() {
+    countF++;
+    document.getElementById("IntF").innerHTML = countF;
+}
+
+var countG = 0;
+function addinterestG() {
+    countG++;
+    document.getElementById("IntG").innerHTML = countG;
+}
+
+var countH = 0;
+function addinterestH() {
+    countH++;
+    document.getElementById("IntH").innerHTML = countH;
+}
+
+var countI = 0;
+function addinterestI() {
+    countI++;
+    document.getElementById("IntI").innerHTML = countI;
+}

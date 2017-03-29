@@ -2,7 +2,39 @@ function navbarsearch() {
     alert("I'm sorry, we can't find what you're looking for.");
 }
 
-function moreinfo() {
+function moreinfoA() {
+    alert("No Info Available");
+}
+
+function moreinfoB() {
+    alert("No Info Available");
+}
+
+function moreinfoC() {
+    alert("No Info Available");
+}
+
+function moreinfoD() {
+    alert("No Info Available");
+}
+
+function moreinfoE() {
+    alert("No Info Available");
+}
+
+function moreinfoF() {
+    alert("No Info Available");
+}
+
+function moreinfoG() {
+    alert("No Info Available");
+}
+
+function moreinfoH() {
+    alert("No Info Available");
+}
+
+function moreinfoI() {
     alert("No Info Available");
 }
 

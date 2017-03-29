@@ -2,10 +2,41 @@ function navbarsearch() {
     alert("I'm sorry, we can't find what you're looking for.");
 }
 
-function moreinfo() {
-    alert("No Info Available");
+function moreinfoA() {
+    alert("From Winter 2017 Semester with Melissa Berry");
 }
 
+function moreinfoB() {
+    alert("From Winter 2017 Semester with Erin Campbell");
+}
+
+function moreinfoC() {
+    alert("From Fall 2016 Semester with Laurel Bowman");
+}
+
+function moreinfoD() {
+    alert("From Winter 2017 Semester with Fan Wu");
+}
+
+function moreinfoE() {
+    alert("Size small, from a vintage shop in Harajuku, Tokyo");
+}
+
+function moreinfoF() {
+    alert("Size 26, Levis");
+}
+
+function moreinfoG() {
+    alert("Size Small, American Apparel");
+}
+
+function moreinfoH() {
+    alert("From Winter 2017 Semester with Ahmad Abdullah");
+}
+
+function moreinfoI() {
+    alert("From Winter 2017 Semester with Fan Wu");
+}
 var countA = 0;
 function addinterestA() {
     countA++;
