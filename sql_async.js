@@ -8,6 +8,7 @@ var async = require("async");
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('.'));
 
 // use res.render to load up an ejs view file
 var connection = mysql.createConnection({
